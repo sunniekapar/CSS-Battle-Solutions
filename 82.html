@@ -1,0 +1,39 @@
+<div class = "outergreen"> </div>
+<div class ="overlap"> </div>
+<div class="innerblue"> </div>
+<style>
+  body {
+    width:400px;
+    height:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F3AC3C;
+  }
+  
+  .innerblue {
+    width: 30px;
+    height: 30px;
+    background: #1A4341;
+    transform: rotate(0.125turn);
+    box-shadow: 0 0 0 35px #F3AC3C;
+  }
+ 
+  .outergreen {
+    position: absolute;
+	width: 160px;
+    height: 160px;
+    background: #998235;
+    transform: rotate(0.125turn);
+  }
+  
+  .overlap {
+    position: absolute;
+	width: 65px;
+    height:65px;
+    background: #998235;
+    transform: rotate(0.125turn);
+    top: 50;
+    box-shadow: 10px 10px 0 20px #F3AC3C;   
+  }
+</style>
